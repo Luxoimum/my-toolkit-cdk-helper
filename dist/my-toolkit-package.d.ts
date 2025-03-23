@@ -2,7 +2,7 @@ export declare class MyToolkitPackage {
     readonly packageName: string;
     readonly packagePath: string;
     constructor(packageName: string, packagePath: string);
-    builder(): MyToolkitPackageBuilder;
+    static builder(): MyToolkitPackageBuilder;
 }
 declare class MyToolkitPackageBuilder {
     private packageName;

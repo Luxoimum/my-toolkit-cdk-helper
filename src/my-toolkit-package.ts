@@ -9,7 +9,7 @@ export class MyToolkitPackage {
     this.packagePath = packagePath;
   }
 
-  builder() {
+  public static builder() {
     return new MyToolkitPackageBuilder();
   }
 }

@@ -40,7 +40,7 @@ class MyToolkitPackage {
         this.packageName = packageName;
         this.packagePath = packagePath;
     }
-    builder() {
+    static builder() {
         return new MyToolkitPackageBuilder();
     }
 }
