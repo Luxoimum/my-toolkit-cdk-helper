@@ -2,14 +2,14 @@
   "name": "mytoolkitcdkhelper",
   "version": "1.0.0",
   "description": "",
-  "main": "dsit/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "prettier --write . && tsc",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.11",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.185.0"
