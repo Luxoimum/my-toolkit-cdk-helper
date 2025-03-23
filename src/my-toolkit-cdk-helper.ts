@@ -1,6 +1,6 @@
 import * as path from 'path';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
-import { MyToolkitPackage } from './bazel-package';
+import { MyToolkitPackage } from './my-toolkit-package';
 
 export class MyToolkit {
   public static fromWorkspace(pkg: MyToolkitPackage): lambda.Code {
