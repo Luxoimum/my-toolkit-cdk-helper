@@ -1,0 +1,21 @@
+{
+  "name": "mytoolkitcdkhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dsit/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.185.0"
+  }
+}
